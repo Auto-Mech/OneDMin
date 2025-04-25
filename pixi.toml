@@ -1,0 +1,14 @@
+[workspace]
+authors = ["avcopan <avcopan@gmail.com>"]
+channels = ["conda-forge"]
+name = "OneDMin"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+cmake = ">=4.0.1,<5"
+gfortran_linux-64 = ">=14.2.0,<15"
+blas = ">=2.131,<3"
+openblas = ">=0.3.29,<0.4"
