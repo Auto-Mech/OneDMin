@@ -34,3 +34,7 @@
 build
 debug
 oldsrc
+
+# pixi environments
+.pixi
+*.egg-info
